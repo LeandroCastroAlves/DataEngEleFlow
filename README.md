@@ -14,7 +14,7 @@ As ETL tem comentarios sobre os processos que fiz.
 
 
 
-Eu faria um job escredulado a cada início do mes quando os arquivos chegassem em uma pasta ou qualquer lugar que seja, e para evitar erros eu colocaria uma chave unica como coluna, neste caso, um checksum de todas as colunas, então faria um upsert ou algo parecido, e se houver algum dado repetido, os registros não duplicariam. Os novos arquivos seriam mesclados com o arquivo full já consistente, só inserindo dados em que não existam no arquivo.
+Eu faria um job escredulado que rodasse a cada mes quando os arquivos chegassem em uma pasta ou qualquer lugar que seja, e para evitar erros eu colocaria uma chave unica como coluna, neste caso, um checksum de todas as colunas, então faria um upsert ou algo parecido, e se houver algum dado repetido, os registros não duplicariam. Os novos arquivos seriam mesclados com o arquivo full já consistente, só inserindo dados em que não existam no arquivo.
 
 
 - Justifique em cada etapa sobre a escalabilidade da tecnologia utilizada.
