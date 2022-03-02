@@ -1,0 +1,4 @@
+O arquivo VraFull.json não pude subir por que o tamanho excede 100M
+
+remote: error: File arquivosModificados/VRA/VraFull.json is 202.06 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage 
